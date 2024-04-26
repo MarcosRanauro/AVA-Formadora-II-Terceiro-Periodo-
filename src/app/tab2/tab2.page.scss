@@ -1,0 +1,31 @@
+ion-content {
+  text-align: center;
+}
+
+ion-input,
+ion-button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+ion-list {
+  width: 100%;
+  margin-top: 20px;
+}
+
+ion-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); /* Define a largura mínima e máxima das colunas */
+  justify-items: center; /* Centraliza o conteúdo das colunas */
+  gap: 10px; /* Espaçamento entre as colunas */
+}
+
+ion-row {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: aqua;
+}
